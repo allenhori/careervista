@@ -1,0 +1,11 @@
+dbt_tutorial:
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      user: postgres
+      pass: mysecretpassword
+      port: 5432
+      dbname: pagila
+      schema: dw
+  target: dev
